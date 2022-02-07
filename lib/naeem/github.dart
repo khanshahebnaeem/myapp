@@ -10,6 +10,10 @@ class Git extends StatefulWidget {
 class _GitState extends State<Git> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+    appbar: Appbar(
+    title: Text("Added successfully"),
+    ),
+    );
   }
 }
