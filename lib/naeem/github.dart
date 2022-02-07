@@ -11,9 +11,9 @@ class _GitState extends State<Git> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-    appbar: Appbar(
-    title: Text("Added successfully"),
-    ),
+      appBar: AppBar(
+        title: Text("Successfully pulled"),
+      ),
     );
   }
 }
